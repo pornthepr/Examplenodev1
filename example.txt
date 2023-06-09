@@ -1,0 +1,27 @@
+Visual Studio IntelliCode
+JavaScript (ES6) code snippets
+
+
+
+for(var i=1; i<=12; i++)
+{
+    console.log(5+ "x" + i +" = " + 5*i);
+}
+
+function sayHello(name){
+    console.log("Hello" + name);
+}
+sayHello("Pornthep"); 
+
+------------
+//logger.js
+function log (msg){
+    console.log("Hello from function log " + msg);
+}
+module.exports.log = log;
+console.log(module);
+
+//index.js
+var testlog = require('./logger');
+testlog.log("test");
+console.log(module);
